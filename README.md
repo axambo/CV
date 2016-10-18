@@ -1,6 +1,6 @@
 # Curriculum Vitae
 
-* [Latest version of my CV (PDF)]()
+* [Latest version of my CV (PDF)](https://github.com/axambo/CV/blob/master/Xambo.CV.pdf?raw=true)
 
 ## Statements
 
