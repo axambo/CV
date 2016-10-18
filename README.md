@@ -15,6 +15,6 @@ Anna Xambó, PhD
 
 Email: anna.xambo@gatech.edu
 
-Website: annaxambo.me
+Website: [annaxambo.me](http://annaxambo.me)
 
-CV: github.com/axambo/CV
+CV: [github.com/axambo/CV](https://github.com/axambo/CV/)
