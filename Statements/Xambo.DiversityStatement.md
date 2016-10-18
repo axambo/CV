@@ -18,6 +18,6 @@ I took it as a personal research and conducted a series of informal interviews w
 
 [Women in Music Tech](http://www.gtcmt.gatech.edu/womeninmusictech) is an exciting adventure. This organization has been possible with the collaboration of everyone from the GTCMT department: students and faculty members. We are also in conversations with a number of organizations and individuals from Georgia Tech that are supporting us and helping us to define our agenda. This year we have programmed an outreach event in the fall 2016, the launch of a monthly newsletter, and making sure that there is a safe and respectful space for everybody. Our next goal is to create a sustainable organization during Spring 2017. 
 
-## What else we can do?
+## What else can we do?
 
 As agents of change, we can improve our environment keeping updated and getting feedback from our colleagues about our organization's actions and achievements, and establishing constant dialogue with the department. Furthermore, attending events related to diversity, such as the [Diversity Symposium 2016](http://www.diversity.gatech.edu/diversitysymposium) at Georgia Tech, is important to network, join forces and share current issues and future strategies. 
