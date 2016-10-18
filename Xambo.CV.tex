@@ -1,0 +1,455 @@
+%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee 
+% that it will correctly compile on your system if you have a non-standard  
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+\usepackage{fontspec} 
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=8pt, marginparwidth=.7in}%marginparsep=7pt, marginparwidth=.6in
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text}
+%\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O}
+%\setmonofont[Scale=0.8]{Monaco}
+%%% modified by Karol Kozioł for ShareLaTeX use
+\setmainfont[
+  Ligatures={Common}, Numbers={OldStyle}, Variant=01,
+  BoldFont=LinLibertine_RB.otf,
+  ItalicFont=LinLibertine_RI.otf,
+  BoldItalicFont=LinLibertine_RBI.otf
+]{LinLibertine_R.otf}
+\setmonofont[Scale=0.8]{DejaVuSansMono.ttf}
+
+% ---- CUSTOM COMMANDS
+\chardef\&="E050
+\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\amper{}}{\chardef\amper="E0BD }
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedrightmarginnote}{} %\raggedleftmarginnote
+\setlength{\marginparsep}{8pt}%7pt
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\mdseries\upshape\Large}
+\subsectionfont{\mdseries\scshape\normalsize} 
+\subsubsectionfont{\mdseries\upshape\large} 
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\usepackage[%dvipdfm, 
+bookmarks, colorlinks, breaklinks, 
+% ---- FILL IN HERE THE TITLE AND AUTHOR
+	pdftitle={Anna Xambó - vita},
+	pdfauthor={Anna Xambó},
+	pdfproducer={http://nitens.org/taraborelli/cvtex}
+]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
+
+% AVOID WIDOW LINES
+\usepackage[all]{nowidow}
+
+% DOCUMENT
+\begin{document}
+{\Huge Anna Xambó}\\[0.1cm]
+\textsc{BA, MA, MSc, PhD}\\[1cm]
+Center for Music Technology\\
+School of Music\\
+College of Design\\
+Georgia Institute of Technology\\
+840 McMillan Street\\
+Atlanta, GA  \texttt{30332--0456}
+U.S.A.\\[.2cm]
+Phone: \texttt{706-239-0127}\\[.2cm]
+email: \href{mailto:anna.xambo@gatech.edu}{anna.xambo@gatech.edu}\\
+\textsc{webpage}: \href{http://annaxambo.me/}{annaxambo.me}\\ 
+
+%%\hrule
+\section*{Current position}
+\emph{Postdoctoral Fellow}, Center for Music Technology | Digital Media Program, Georgia Institute of Technology (Georgia Tech)
+
+%%\hrule
+\section*{Areas of interest}
+Human-computer interaction • Design of digital musical instruments (DMIs) • Tangible, physical \& social computing • Arts \& social sciences research methods • STEAM education • Real-time interactive systems for music performance • Computer-supported collaborative, participatory \& improvisation music • Real-time music information retrieval • Algorithmic composition \& randomized algorithms • Live coding • Immersive sound experiences • Data visualization • Creative programming • Women in music tech
+
+%\hrule
+\section*{Education}
+\noindent
+\years{2015}\textsc{PhD}, The Open University (OU), UK \& \textsc{Dra.}, Universitat Pompeu Fabra (UPF), Spain.\\
+\years{2008}\textsc{MSc} in Information, Communication and Audiovisual Media Technologies, UPF, Spain.\\
+\years{1999}\textsc{Master} in Video, Animation and Multimedia Design, Media Art Institute Fak d'Art, Spain.\\
+\years{1996}\textsc{BA, MA} in Social and Cultural Anthropology, Universitat de Barcelona (UB), Spain.
+
+%\hrule
+\section*{Dissertation}
+\noindent
+\years{Title}Xambó, A. (2015). Tabletop Tangible Interfaces for Music Performance: Design and Evaluation.\\
+\years{Advisors}Dr Robin Laney, Mr Chris Dobbyn and Prof Sergi Jordà.\\
+\years{Examiners}Prof Eduardo Reck Miranda and Dr Janet van der Linden.\\
+\years{Website}\href{http://oro.open.ac.uk/42473/}{http://oro.open.ac.uk/42473/}\\[.3cm]
+
+%\hrule
+\section*{Music education}
+\noindent
+\subsection*{Classical training}
+\years{1983--1987}\textsc{Piano}, Conservatori Superior de Música del Liceu, Barcelona.\\
+\years{1982--1988}\textsc{Music Theory \& Solfege}, Conservatori Superior de Música del Liceu, Barcelona.
+\noindent
+\subsection*{Workshops}
+\years{2014}\textsc{Taller composición acusmática} (Acousmatic composition workshop). Beatriz Ferreyra.\\
+\years{2012}\textsc{Síntesi no estàndard: tècniques, estètiques, extensions} (Non-standard synthesis: techniques, aesthetics, extensions). Luc Döbereiner.\\
+\years{2009}\textsc{Taller construeix el teu propi sintetitzador} (Build your own synthesizer workshop). Tom Bugs.\\
+\years{2006}\textsc{El món com a instrument} (The world as an instrument). Francisco López.\\
+\years{1998}\textsc{Improvització mètode Cobra} (Cobra improvisation method). Orquestra del Caos.
+
+%%\hrule
+\section*{Employment}
+\noindent
+\years{08/2013--09/2014}\textsc{Research Fellow}. London Knowledge Lab, UCL Institute of Education. London. Qualitative data collection and analysis (6 sites), dissemination activities and paper writing of results, development of research tools and processes.\\
+\years{02/2004--06/2010}\textsc{Co-founder, Project Manager, Web Designer and Web Developer}. Nodular Soft. Barcelona. Freelance studio focused on user-centric software and AV communication, development of community websites using several CMS, development of AV programs under specific needs, and usability consultancy. \\
+\years{01/2008--07/2009}\textsc{Web Designer and Web Developer Project Officer}. Music Technology Group, UPF. Barcelona. Web design and web development of the web 2.0 Sons de Barcelona (barcelona.freesound.org). Web design of the corporate portal of the research group MTG (mtg.upf.edu). Graphic design of the corporate brochure of the MTG (courses 2008--2009 and 2009--2010).\\
+\years{11/2007--06/2009}\textsc{Web Designer and Web Developer Project Officer}. Uaalah!!. Barcelona. Design and programming of a self-manageable interactive catalogue for CD-ROM about Bürkert products. Flash programming of the online tea shop of Sans \& Sans (sansisans-finetea.com).\\
+\years{08/2005--09/2006}\textsc{Web Designer and Motion Graphic Designer}. CCRTVi | TV3 Interactiva. Sant Just Desvern, Barcelona. Web interface design of different portals of the Catalan TV corporation (tv3.cat, catradio.cat, ritmes.net, among others). Web interface design of the sitcom Lo Cartanyà (locartanya.com). Mobile design of the prototype 3alacarta.\\
+\years{05/2001--08/2002}\textsc{Web Designer and Motion Graphic Designer}. TerraNetworks | UranoFilms. Barcelona. Web interface design and flash design of AV internet content about electronic music and digital culture.\\
+\years{04/2000--05/2001}\textsc{Web Designer and Motion Graphic Designer} at MediaPark | ParkNet, Barcelona. Flash design of animations games for the Internet soccer portal futvol.com.\\
+
+%\hrule
+\section*{Grants, honors \& awards}
+\noindent
+\years{10/2010--07/2013}\textsc{Fully-Funded Full-Time OU PhD scholarship}. Milton Keynes, UK.\\
+\years{03/2010--06/2010}\textsc{Fully-Funded OU Visiting Research Studentship}. Milton Keynes, UK.\\
+\years{05/2004}\textsc{First prize award}. Project: ``Cosmogonias". Category: Experimental Video. Minima Festival, Gandia, Spain. Created by Anna Xambó.\\
+\years{09/2001--08/2002}\textsc{Audiovisual production grant}. Project: ``Transdata Pr.''. Funding body: Departament de Cultura de la Generalitat de Catalunya (Department of Culture of Catalan Government). Grant Amount: 3,000€ (\$3,335). Written and directed by Anna Xambó.\\
+\years{09/1998--08/1999}\textsc{Audiovisual production grant}. Project: ``Mitösömä''. Funding body: Departament de Cultura de la Generalitat de Catalunya (Department of Culture of Catalan Government). Grant Amount: 3,000€ (\$3,335). Written and directed by Anna Xambó.\\
+
+%\hrule
+\section*{Research funding obtained}
+\years{09/2016-08/2020}Funding body: National Science Foundation. Project: ``Collaborative Research: Mixing Learning Experiences for Computer Programming Across Museums, Classrooms, and the Home Using Computational Music''. Award Number: 1612644. Principal Investigator: Brian Magerko. Co-Principal Investigator: Jason Freeman. Organization: Georgia Tech Research Corporation. Award Amount: \$2,517,690.00. My role: Postdoctoral Fellow and Co-Writer of the grant proposal.\\
+\years{11/2003-10/2004}Funding body: Fundació Caixa de Sabadell. Project: ``Crossmedia infantil: Estudio sobre las nuevas tecnologías y la comunicación audiovisual en la escuela infantil y primaria (Crossmedia for Children: New Technologies and Audiovisual Communication in Primary Education)''. Principal Investigator: Anna Xambó. Co-Principal Investigator: Eladi Martos. Collaborators: UB. Award Amount: 3,000€ (\$3,335).\\
+
+%\hrule
+\section*{Teaching}
+\noindent
+
+\subsection*{Undergraduate courses}
+\noindent
+
+\years{02/2004--06/2004}Teacher. Course: \emph{Experimental Motion Graphics} (45 h). Centre de la Imatge i la Technologia Multimèdia, Universitat Politècnica de Catalunya, Terrassa, Barcelona.\\ 
+\years{10/2003--02/2004}Teacher. Course: \emph{Crossmedia} (45 h). BAU Escola de Disseny, Universitat de Vic, Barcelona.\\ 
+\years{11/1999--06/2004}Teacher. Course: \emph{Computer Animation} (90 h). Media Art Institute Fak d'Art, Barcelona.\\ 
+\years{11/2003--06/2004}Technical instructor. Course: \emph{Digital Compositing with Adobe AfterEffects} (45 h). Media Art Institute Fak d'Art, Barcelona.\\ 
+\years{11/2003--06/2004}Teacher. Course: \emph{Photography in Motion} (45 h). Media Art Institute Fak d'Art, Barcelona.\\ 
+\years{11/2003--06/2004}Teacher. Course: \emph{Type in Motion} (45 h). Media Art Institute Fak d'Art, Barcelona.\\ 
+\years{11/1999--06/2003}Teacher. Course: \emph{Computer Animation} (90 h). Media Art Institute Fak d'Art, Barcelona.  
+
+\subsection*{Professional courses}
+\noindent
+
+\years{04/2004--05/2005}Technical instructor. Courses: \emph{Usability} (12 h), \emph{Internet Design Techniques} (12 h), \emph{Web Design with DreamWeaver} (24 h), \emph{Multimedia Content with Adobe Flash} (16 h), \emph{Flash Programming} (20 h), \emph{Theoretical Aspects in Graphic Design} (12 h) and \emph{Video Edition with Adobe Premiere} (60 h). Crea Formación, Barcelona.\\ 
+
+\subsection*{Preschool \& Primary school courses}
+\noindent
+
+\years{03/2004--06/2004}Teacher. Course (6--7 years old): \emph{Crossmedia infantil} (8 h). Escola Magòria, Barcelona.\\
+\years{03/2004--05/2004}Teacher. Course (9--10 years old): \emph{Crossmedia infantil} (8 h). Escola Costa i Llobera, Barcelona.\\
+\years{03/2004--05/2004}Teacher. Course (3--4 years old): \emph{Crossmedia infantil} (8 h). Escola Glòries, Barcelona.
+
+
+\section*{Research profiles}
+\noindent
+
+\textbullet \- \href{https://scholar.google.com/citations?user=yi3WXM8AAAAJ}{Scholar Google}\\
+\textbullet \- \href{http://oro.open.ac.uk/view/person/ax22.html}{Open Research Online}\\
+\textbullet \- \href{http://open.academia.edu/AnnaXambo}{Academia.edu}\\
+\textbullet \- \href{http://www.researchgate.net/profile/Anna_Xambo}{ResearchGate}
+
+\section*{Publications}
+\noindent
+
+\subsection*{Books}
+\noindent
+\years{2004}Xambó, A. (2004). \emph{Herramientas De Diseño Digital / Digital Design Tools}. Madrid: Anaya-Multimedia. ISBN 8441516979.
+
+\subsection*{Book chapters}
+\noindent
+\years{2016}Xambó, A. (forthcoming), “Embodied music interaction: creative design synergies between music performance and HCI". In Price, S. and Broadhurst, S. eds. Digital Bodies: Creativity and Technology in the Arts and Humanities. Palgrave Macmillan, London.\\
+\years{2013}Xambó, A., Laney, R., Dobbyn, C. and Jordà, S. (2013). “Video analysis for evaluating music interaction: musical tabletops". In Holland, S., Wilkie, K., Mulholland, P. and Seago, A. eds. Music and Human-Computer Interaction. Springer, London. pp. 241--258. ISBN 9781447129905.
+
+\subsection*{Journal articles}
+\noindent
+\years{2016c}Jewitt, C., Price, S., Xambó, A. (2016). “Conceptualising and researching the body in digital contexts: towards new methodological conversations across the arts and social sciences". \emph{Qualitative Research}.\\
+\years{2016b}Xambó, A., Hornecker, E., Marshall, P., Jordà, S., Dobbyn, C. and Laney, R. (2016). “Exploring social interaction with a tangible music interface". \emph{Interacting with Computers}.\\
+\years{2016a}Jewitt, C., Xambó, A. and Price, S. (2016). “Exploring methodological innovation in the social sciences: the body in digital environments and the arts". \emph{International Journal of Social Research Methodology}.\\
+\years{2013b}Xambó, A., Hornecker, E., Marshall, P., Jordà, S., Dobbyn, C. and Laney, R. (2013). “Let's jam the Reactable: peer learning during musical improvisation with a tabletop tangible interface". \emph{ACM Transactions on Computer-Human Interaction}, 20(6), pp. 36:1--36:34.\\
+\years{2013a}Bogdanov, D., Haro, M., Fuhrmann, F., Xambó, A., Gómez, E. and Herrera, P. (2013). “Semantic audio content-based music recommendation and visualization based on user preference examples". \emph{Information Processing \& Management}, 49(1), pp. 13--33.
+
+\subsection*{Peer-reviewed conference papers}
+\noindent
+\years{2016f}Xambó, A., Shah, P., Freeman, J., Magerko, B., Michaud, C. (under review) The skill of debugging: informing the design of CS+Arts learning environments for novice programmers.\\ 
+\years{2016e}Xambó, A., Drozda, B., Weisling, A., Magerko, B., Huet, M., Gasque, T., Freeman, J. (accepted) Experience and ownership with a tangible computational music installation for informal learning. In \emph{Proceedings of the Tangible, Embedded, and Embodied Interaction Conference (TEI '17)}. \\ 
+\years{2016d}Tsuchiya, T., Xambó, A., Freeman, J. (2016). “Adapting DAW-driven musical language to live coding: a case study in EarSketch". In \emph{Late-Breaking Demo of the Second International Conference on Live Coding (ICLC '16)}. Hamilton, Canada.\\ 
+\years{2016c}Freeman, J., Magerko, B., Edwards, D., Miller, M., Moore, R., Xambó, A. (2016). “Using EarSketch to broaden participation in computing and music". In \emph{Proceedings of the 13th Sound and Music Computing Conference (SMC 2016)}. Hamburg, Germany. pp. 156--163.\\
+\years{2016b}Xambó, A., Lerch, A., Freeman, J. (2016). “Learning to code through MIR". In \emph{Extended abstracts for the Late-Breaking Demo Session of the 17th International Society for Music Information Retrieval Conference (ISMIR 2016)}. New York.\\
+\years{2016a}Xambó, A., Freeman, J., Magerko, B., Shah, P. (2016). “Challenges and new directions for collaborative live coding in the classroom". In \emph{International Conference of Live Interfaces (ICLI 2016)}. Brighton, UK.\\
+\years{2015}Freeman, J., Magerko, B., Edwards, D., Moore, R., McKlin, T., Xambó, A. (2015). “EarSketch: a STEAM approach to broadening participation in computer science principles". In \emph{Proceedings of the IEEE Research in Equity and Sustained Participation in Engineering, Computing, and Technology (RESPECT '15)}. Charlotte, NC. pp. 109--110.\\
+\years{2014b}Xambó, A., Roma, G., Laney, R., Dobbyn, C. and Jordà, S. (2014). “SoundXY4: supporting tabletop collaboration and awareness with ambisonics spatialisation". In \emph{Proceedings of the International Conference on New Interfaces for Musical Expression 2014 (NIME '14)}. London. pp. 249--252.\\
+\years{2014a}Xambó, A., Jewitt, C., and Price, S. (2014). “Towards an integrated methodological framework for understanding embodiment in HCI". In \emph{Proceedings of the Extended Abstracts on Human Factors in Computing Systems (CHI '14)}. Toronto. pp. 1411--1416.\\
+\years{2013}Bogdanov, D., Haro, M., Fuhrmann, F., Xambó, A., Gómez, E. and Herrera, P. (2013). “A content-based system for music recommendation and visualization of user preferences working on semantic notions". In \emph{IEEE 9th International Workshop on Content-Based Multimedia Indexing (CBMI '13)}. Madrid. pp. 249--252.\\
+\years{2012}Roma, G.; Xambó, A.; Herrera, P. and Laney, R. (2012). “Factors in human recognition of timbre lexicons generated by data clustering". In \emph{Proceedings of the 9th Sound and Music Computing Conference (SMC 2012)}. Copenhagen, Denmark. pp. 23--30.\\
+\years{2011c}Xambó, A., Laney, R., Dobbyn, C. and Jordà, S. (2011). “Multi-touch interaction principles for collaborative real-time music activities: towards a pattern language". In \emph{Proceedings of the International Computer Music Conference (ICMC '11)}. Huddersfield, UK. pp. 403--406.\\
+\years{2011b}Xambó, A., Laney, R. and Dobbyn, C. (2011). “TOUCHtr4ck: democratic collaborative music". In \emph{Proceedings of the Tangible, Embedded, and Embodied Interaction Conference (TEI '11)}. Funchal, Madeira. pp. 309--312.\\
+\years{2011a}Milne, A. J.; Xambó, A.; Laney, R.; Sharp, D. B.; Prechtl, A. and Holland, S. (2011). “Hex Player — a virtual musical controller". In \emph{Proceedings of the International Conference on New Interfaces for Musical Expression (NIME '11)}. Oslo, Norway. pp. 244--247.\\
+\years{2010b}Laney, R., Dobbyn, C., Xambó, A., Schirosa, M., Miell, D., Littleton, K. and Dalton, N. (2010). “Issues and techniques for collaborative music making on multi-touch surfaces". In \emph{7th Sound and Music Computing Conference (SMC 2010)}. Barcelona. pp. 146–153.\\
+\years{2010a}Haro, M.; Xambó, A.; Fuhrmann, F.; Bogdanov, D.; Gómez, E. and Herrera, P. (2010). “The Musical Avatar: a visualization of musical preferences by means of audio content description". In \emph{Proceedings of the 5th Audio Mostly Conference (AM '10)}. Piteå, Sweden.\\
+\years{2008}Roma, G. and Xambó, A. (2008). “A tabletop waveform editor for live performance". In \emph{Proceedings of the International Conference on New Interfaces for Musical Expression (NIME '08)}. Genoa, Italy.
+
+\subsection*{Position papers \& workshop papers}
+\noindent
+
+\years{2012}Xambó, A.; Laney, R.; Dobbyn, C. and Jordà, S. (September 11, 2012). “Towards a taxonomy for video analysis on collaborative musical tabletops". In \emph{BCS HCI 2012 Workshop on video analysis techniques for HCI}. Birmingham, UK.\\
+\years{2011}Xambó, A.; Laney, R.; Dobbyn, C. and Jordà, S. (July 4, 2011). “Collaborative music interaction on tabletops: an HCI approach". In \emph{BCS HCI 2011 Workshop on When Words Fail: What can Music Interaction tell us about HCI?}. Newcastle Upon Tyne.
+
+\subsection*{Reports \& Working papers}
+\noindent
+
+\years{2008}Xambó, A. (2008). Interfaces for Sketching Musical Compositions. Unpublished master's thesis. UPF.\\ 
+\years{2004}Xambó, A. and Martos, E. (2004). Crossmedia Infantil: Estudi sobre les noves tecnologies i la comunicació audiovisual a l'escola infantil i primària (Report of new technologies and audiovisual communication in the primary education). Unpublished report. Fundació Caixa de Sabadell with the support of UB.
+
+\section*{Talks \& Oral presentations}
+
+\years{2016e} Xambó, A. (July 2, 2016). Challenges and new directions for collaborative live coding in the classroom. \emph{ICLI 2016}. Brighton, UK.\\
+\years{2016d} Xambó, A.; Ikkache, L. and Jackson, D. (May 5, 2016). Women in Sound. Oral presentation and discussion. \emph{Georgia Tech Center for Music Technology (GTCMT)}, Geogia Tech. Atlanta, GA, US.\\
+\years{2016c} Dobson, L. and Xambó, A. (April 22, 2016). Anna Xambó and Liz Dobson in conversation. Keynote session. \emph{Women in Sound Women on Sound 2016: Educating girls in sound} at University of Lancaster. Lancaster, UK.\\
+\years{2016b} Xambó, A. (February 25, 2016). Algorithmic composition: my personal journey. Oral presentation as a guest speaker in Jason Freeman's \emph{Computer Music Composition} class. GTCMT. Atlanta, GA, US.\\
+\years{2016a} Xambó, A. (January 26, 2016). EarSketch: computational music remixing for all. Oral presentation as a guest speaker in Barbara Ericson's \emph{Educational Technology} class. College of Computing, Georgia Tech. Atlanta, GA, US.\\
+\years{2015d} Xambó, A. (September 3, 2015). Musical tabletops: challenges and opportunities for computer-supported collaborative music and HCI. \emph{College of Architecture Research Forum}, Georgia Tech. Atlanta, GA, US.\\ 
+\years{2015c} Xambó, A. (August 27, 2015). Musical tabletops: challenges and opportunities for computer-supported collaborative music and HCI. \emph{GVU Center Brown Bag Seminar Series}, Georgia Tech. Atlanta, GA, US.\\
+\years{2015b} Xambó, A. (August 24, 2015). Musical tabletops: challenges and opportunities for computer-supported collaborative music and HCI. \emph{GTCMT Seminar Series}, Georgia Tech. Atlanta, GA, US.\\ 
+\years{2015a} Xambó, A. (August 14, 2015). EarSketch: a STEAM approach to broadening participation in computer science principles. Lightning talk. \emph{RESPECT 2015}. Charlotte, NC. US.\\
+\years{2014c} Xambó, A. (July 1, 2014). SoundXY4: Supporting tabletop collaboration and awareness with ambisonics spatialisation. \emph{NIME 2014}. London.\\
+\years{2014b} Xambó, A. (April 30, 2014). Let's jam the Reactable: Peer learning during musical improvisation with a tabletop tangible interface. \emph{CHI 2014}. Toronto, ON.\\
+\years{2014a} Xambó, A. (April 9, 2014). Let's jam the Reactable: Peer learning during musical improvisation with a tabletop tangible interface. \emph{London Knowledge Lab}. London.\\
+\years{2013b} Xambó, A. (November 11, 2013). Tabletop tangible interfaces for music performance and implications for tabletop research. \emph{School of Computing}, University of Kent. Kent, UK.\\
+\years{2013a} Xambó, A. (June 2, 2013). Tabletop groupware for music performance: Design and evaluation. \emph{CRC PhD Student Conference 2013}, OU. Milton Keynes, UK.\\
+\years{2012} Xambó, A. (June 12, 2012). Collaboration on interactive tabletops for music performance: An exploratory study. \emph{CRC PhD Student Conference 2012}, OU. Milton Keynes, UK.\\
+\years{2011d} Xambó, A. (August 2, 2011). Multi-touch interaction principles for collaborative real-time music activities: towards a pattern language. \emph{ICMC '11}. Huddersfield, UK.\\
+\years{2011c} Xambó, A. (July 4, 2011). Collaborative music interaction on tabletops: An HCI approach?. \emph{BCS HCI 2011 Workshop on When Words Fail: What can Music Interaction tell us about HCI?}. Newcastle Upon Tyne, UK.\\
+\years{2011b} Xambó, A. (June 16, 2011). Tabletop groupware for music performance: Design and evaluation. \emph{CRC PhD Student Conference 2011}, OU. Milton Keynes, UK.\\
+\years{2011a} Xambó, A. (May 17, 2011). Tabletop groupware for music performance: Design and evaluation. \emph{2011 Doctoral Workshops Conference}, OU. Milton Keynes, UK.\\
+\years{2010c} Xambó, A. (July 23, 2010). Issues and techniques for collaborative music making on multi-touch surfaces. \emph{SMC '10}. Barcelona.\\
+\years{2010b} Xambó, A. (June 8, 2010). Issues and techniques for collaborative music making on multi-touch surfaces. \emph{CRC PhD Student Conference 2010}, OU. Milton Keynes, UK.\\
+\years{2010a} Xambó, A. (May, 2010). Issues and techniques for collaborative music making on multi-touch surfaces. \emph{Music Research Day}, Music Research Studio, OU. Milton Keynes, UK.\\
+\years{2008c} Alsina, A., Ferrete, J., Roma, G. and Xambó, A. (October 31, 2008). Freesound, Sons de Barcelona y Freesound Radio: Proyectos colaborativos alrededor del sonido. \emph{IV Cicle de Converses d'Antropologia Sonora}, Institució Milá i Fontanals (CSIC). Barcelona.\\
+\years{2008b} Alsina, A., Ferrete, J., Roma, G. and Xambó, A. (2008). Freesound.org, Freesound Radio i Sons de Barcelona. \emph{Facultat de Belles Arts (Faculty of Fine Arts)}, Universitat de Barcelona. Barcelona.\\
+\years{2008a} Alsina, A., de Jong, B., Loscos, A., Roma, G. and Xambó, A. (September 27, 2008). Influencia de la tecnología en la evolución de la música y la industria. \emph{NetAudio}, CCCB. Barcelona.\\
+\years{2007}Roma, G. and Xambó, A. (September 20, 2007). A sound editor with a tangible interface. \emph{SCSymposium(2007)}, DCM. The Hague, Netherlands.
+
+
+\section*{Poster presentations \& Demos}
+
+\years{2016c} Xambó, A. (August 11, 2016). Learning to code through MIR. \emph{Late-Breaking Demo Session of ISMIR 2016}. New York.\\
+\years{2016b} Roma, G.; Xambó, A. and Freeman, J. (July 2, 2016). Do the Buzzer Shake. \emph{ICLI 2016 Conference}. Brighton, UK.\\
+\years{2016a} Xambó, A. (April 29, 2014). Towards an integrated methodological framework for understanding embodiment in HCI. \emph{CHI 2014 Conference}. Toronto, ON.\\
+\years{2012b} Xambó, A. (January 10, 2012). Tangible Additive Sound Synthesis (TASS) Demo. \emph{Welcome to the French Embassy}, OU. Milton Keynes, UK.\\
+\years{2012a} Xambó, A. (June 17, 2011). Designing and evaluating interactive systems: Musical tabletops for collective music performance. \emph{CRC PhD Student Conference 2011}, OU. Milton Keynes, UK.\\
+\years{2011} Xambó, A. (March 8, 2011). Designing and evaluating interactive systems: Musical tabletops for collective music performance. \emph{The Open University Poster Competition 2011}. Milton Keynes, UK.
+
+\section*{Workshops}
+
+\years{2013} Xambó, A. (May 2	, 2013). Introduction to SuperCollider. \emph{Music Computing Meeting}, OU. Milton Keynes, UK.\\
+\years{2012} Xambó, A.; Roma, G. and Bovermann, T. (April 15, 2012). Tangible musical interfaces with SuperCollider. \emph{SuperCollider Symposium 2012}, Goldsmiths, University of London. London.\\
+
+
+\section*{Discography}
+
+\subsection*{Solo Albums}
+\years{2013}peterMann. (2013). \emph{On the Go} [promo CD \& FLAC/MP3 files]. Barcelona: Carpal Tunnel.\\
+\years{2011}peterMann. (2011). \emph{init} [promo CD \& FLAC/MP3 files]. Barcelona: Carpal Tunnel.\\
+
+\subsection*{Band Albums}
+\years{1996}La Más Fina. (1996). \emph{Zande Phondex} [CD]. Barcelona: Apache Productions.\\
+\years{1994}La Más Fina. (1994). \emph{Como quien dice la hoja iberia extrafina} [Cassette]. Barcelona: Self-released.\\
+\years{1992}Sosa's Cáustica. (1992). \emph{Paraponera Clavata} [Cassette]. Barcelona: Murmur Town.\\
+
+\subsection*{Participation in Compilations}
+\years{2016}peterMann. (2016). Go wild y'all. On \emph{Microtopies 2016} [MP3 files]. Barcelona: Gracia Territori Sonor.\\
+\years{2015}peterMann. (2015). ldnsktch01. On \emph{Microtopies 2015} [MP3 files]. Barcelona: Gracia Territori Sonor.\\
+\years{2010}peterMann. (2010). init11. On \emph{Electronic music from Catalonia 2010} [CD]. Barcelona: Catalan! Arts / Sonar, Barcelona.\\
+
+\section*{Performances}
+
+\subsection*{Solo performances}
+
+\years{2016}Xambó, A. (April 22, 2016). Live coding with EarSketch. \emph{Women in Sound Women on Sound 2016: Educating girls in sound}. Lancaster, UK.\\
+\years{2016}peterMann. (April 22, 2016). Live. \emph{Women in Sound Women on Sound 2016: Educating girls in sound}. Lancaster, UK.\\
+\years{2013}Xambó, A. (October 4, 2013). Live. \emph{Perspectives on multichannel live coding}. PHONOS. Barcelona.\\
+\years{2012}peterMann. (September 20, 2012). Live. \emph{Crispy Crunchy Creaky}. Niu. Barcelona.\\
+\years{2006}peterMann. (June 10, 2006). Live. \emph{5a Mostra Sonora i Visual | Convent Sant Agustí}. Barcelona.
+
+\subsection*{Selected group performances}
+\years{2012}pulso. (March 15, 2012). Live. \emph{Live Coding Sessions}. Niu. Barcelona.\\
+\years{2004}pulso. (May 29, 2004). Live. \emph{Festival Mínima}. Gandía, Spain.\\
+\years{2002}b4ng. (June 13, 2002). Live. \emph{Sonar Festival}. Barcelona.\\
+
+\section*{Broadcasting}
+
+\years{2013}peterMann's og02. (July 28, 2013). BiP\_HOp Generation on Radio Grenouille.\\
+\years{2013}peterMann's og01, og05, og07 \& og09. (June 23, 2013). Framework radio \#426.\\
+\years{2013}peterMann's og01. (March 28, 2013). Rare Frequency on WZBC 90.3 FM Newton Boston College Radio.\\
+\years{2013}peterMann's og01 \& og10. (March 2, 2013). Onda Sonora.\\
+\years{2013}peterMann's selection of \emph{On The Go}'s tracks. (February 3, 2013). RNE Atmósfera.\\
+\years{2013}peterMann's og02. (February 2, 2013). Störung Radio 127 on ScannerFM.\\
+\years{2010}peterMann's init 10, init 11 \& init 12. (December 18, 2010). Onda Sonora.\\
+\years{2010}peterMann's init 2. (April 12, 2010). Sismógrafo.
+
+\section*{Awarded music hacks}
+
+\years{2014}Roma, G. and Xambó, A. (2014). crowdj. \emph{Music Hack Day}. Barcelona. Rdio prize.\\
+\years{2012b}Xambó, A. and Roma, G. (2012). Soundscape Turntablism. \emph{Music Hack Day}. Barcelona. Reactable and Zvooq prizes.\\  
+\years{2012a}Roma, G. and Xambó, A. (2012). Soundscape DJ. \emph{Music Tech Fest}. London. Warp Records prize. \\
+
+\section*{Code}
+\years{2016}Algonoise. (2016). Retrieved from \href{https://github.com/axambo/algonoise}{https://github.com/axambo/algonoise}\\
+\years{2014}SoundXY4: The Art of Noise. (2014). Retrieved from \href{https://github.com/axambo/soundxy4}{https://github.com/axambo/soundxy4}\\
+\years{2012}SoundXY. (2012). Retrieved from \href{https://github.com/axambo/soundxy2}{https://github.com/axambo/soundxy2}
+
+
+\section*{Video \& Animation films}
+
+\years{2003a}Xambó, A. (2003). \emph{Cosmogonias} (3 min). Spain. Video creation.\\
+\years{2002b}Xambó, A. (2002). \emph{b.scope} (3 min). Spain. Video creation.\\ %3:23
+\years{2002a}Xambó, A. (2002). \emph{Transdata Pr.} (5 min). Spain. Video creation.\\
+\years{2000}Xambó, A. (2000). \emph{clubsfera} (3 min). Spain. Video creation.\\
+\years{1999}Xambó, A. (1999). \emph{Mitösöma} (10 min). Spain. Video creation.\\
+\years{1998c}Xambó, A. (1998). \emph{Lufthansa} (3 min). Spain. Videoclip for La Más Fina.\\
+\years{1998b}Xambó, A. (1998). \emph{Neila} (2 min). Spain. Video creation.\\
+\years{1998a}Xambó, A. (1998). \emph{Sueños} (1 min). Spain. Video creation.\\
+
+\section*{Installations \& Visuals}
+
+\years{09/2002}Grau, U; Dünner, E.; Meneses, J.; Otero, A. and Xambó, A. (2002). \emph{I love Japan}. Audiovisual installation for Divinas Palabras' Japan collection. Creation of visuals. Circuit Festival. Barcelona.\\
+\years{03/2002--08/2002}\emph{Astoria} (cinema \& restaurant). Barcelona. Co-filming and creation of visuals. In collaboration with Babylon Cannes.\\
+\years{09/2001}\emph{Eme3density, Second Architectural Market}. Centre de Cultura Contemporània de Barcelona (CCCB). Barcelona. Flash animation and programming of the website presented in the event.\\
+
+\section*{Additional experience}
+
+\subsection*{Concerts co-organization}
+
+\years{2016}Women in Music Tech. (November 2, 2016). The Garage. Atlanta, GA, US.\\
+\years{2016}Audience device participation. (April 5, 2016). \emph{Web Audio Conference 2016}, Georgia Tech. Atlanta, GA, US.\\
+\years{2016}Live coding and the audiovisual web. (April 4, 2016). \emph{Web Audio Conference 2016}, Georgia Tech. Atlanta, GA, US.\\
+\years{2013}Perspectives on multichannel live coding. (October 4, 2013). Sala Polivalent UPF, PHONOS. Barcelona.\\
+\years{2013}Live Coding Sessions II. (March 22, 2013). Niu. Barcelona.\\
+\years{2012}Live Coding Sessions. (March 15, 2012). Niu. Barcelona.
+
+\subsection*{Blogging}
+\years{2016--}\href{htp://womeninmusictech.gatech.edu}{Women in Music Tech}, the newsletter of the Women in Music Tech organization. Co-creator and co-author.\\ 
+\years{09/2013--08/2014}\href{http://midassblog.wordpress.com}{MIDAS's Blog}, the research blog of the MIDAS project. Co-creator and co-author. \\ 
+\years{01/2010--12/2011} \href{http://postwimp.com}{postWIMP}, a blog on HCI and interaction design. Co-creator and author.\\
+\years{03/2006--03/2009}\href{http://streetypes.blogspot.com}{streeTypes}, a blog on typography in public spaces. Creator and author.  
+
+\subsection*{Artistic collective projects}
+
+\years{2008--present}Co-founder of the experimental electronic music label Carpal Tunnel.\\
+\years{2002}Co-founder and member of the audiovisual electronic music band b4ng.\\
+\years{1998--2000}Co-founder and member of the experimental video collective jesus13.
+
+%\hrule
+\section*{Professional activities}
+\noindent
+
+\subsection*{Committee member / Conference chair}
+\noindent
+
+\years{2016}Co-founder \& Co-chair. \emph{Women in Music Tech}, GTCMT, Georgia Tech. Atlanta, GA, US.\\
+\years{2016}Music/Artworks chair. \emph{Web Audio Conference 2016}, Georgia Tech. Atlanta, GA, US.\\
+\years{2011}Session chair (``Laptop/Coding/NI''). \emph{ICMC '11}. Huddersfield, UK.\\
+\years{2011}Committee member. \emph{CRC PhD Student Conference 2011}, OU. Milton Keynes, UK.
+
+\subsection*{Conference Reviewer}
+\noindent
+
+\years{2012--2016}\emph{ACM Designing Interactive Systems} (2012, 2016).\\
+\years{2011--2016}\emph{ACM New Interfaces for Musical Expression} (2011--2016).\\
+\years{2015--2017}\emph{ACM Special Interest Group on Computer-Human Interaction} (2015--2017).\\
+\years{2012--2017}\emph{ACM Tangible, Embedded and Embodied Interaction} (2012--2017).\\
+\years{2013}\emph{IEEE Interactive Tabletops and Surfaces} (2013).\\
+\years{2016}\emph{International Conference on Live Interfaces} (2016).\\
+\years{2016}\emph{ISSTA International Festival and Conference on Sound in the Arts, Science and Technology} (2016).\\
+\years{2016}\emph{Web Audio Conference} (2016).
+
+\subsection*{Journal Reviewer}
+\noindent
+
+\years{2016--}\emph{Interacting with Computers}. Oxford Journals.\\
+\years{2015--}\emph{International Journal of Human-Computer Studies}. Elsevier.\\
+\years{2016--}\emph{Qualitative Research}. Sage Publications.
+
+\subsection*{Jury Member}
+\noindent
+
+\years{2016}Jury member. \emph{MOOG Hackathon 2016}, GTCMT, Georgia Tech. Atlanta, GA, US.
+
+%\hrule
+\section*{Consultancies}
+\noindent
+
+\years{08/2015--10/2015}\emph{Flux Project}. Consulting on development of interactive audio components of an art project for Flux Night 2015.\\[1.1cm]
+
+%\hrule
+\section*{Skills}
+\noindent
+
+\subsection*{Languages}
+\noindent
+
+Catalan (native or bilingual proficiency), Spanish (native or bilingual proficiency), English (full professional proficiency), German (basic level), Italian (basic level), French (basic level).
+
+\subsection*{Computer skills}
+\noindent
+
+Operating Systems: OS X, Windows and Linux desktop (Ubuntu).\\
+Programming: Actionscript, Assembly (basic level), C, CSS, Java, JavaScript, jQuery, MySQL, PHP, Python, XHTML, XML.\\
+Scientific Apps: MATLAB, Octave, R, SPSS.\\
+Version control systems: CVS, Git, Subversion.\\
+Music Apps: Cubase, Live, Max/MSP, PureData, SuperCollider, wave editors (Audacity, SoundForge, WaveEditor).\\
+Video analysis Apps: ELAN, VCode.\\
+Other Apps: Graphics and multimedia authoring apps (AfterEffects, Blender, Dreamweaver, Final Cut Pro, Flash, Freehand, Illustrator, InDesign, Photoshop, Premiere, Processing, Combustion, 3DMax), LaTeX, MS Office suite. CMS (Drupal, WordPress).
+
+
+%\vspace{1cm}
+\vfill{}
+%\hrulefill
+
+\begin{center}
+{\scriptsize  Last updated: \today\- •\- 
+% ---- PLEASE LEAVE THIS BACKLINK FOR ATTRIBUTION AS PER CC-LICENSE
+Typeset in \href{http://nitens.org/taraborelli/cvtex}{
+%\fontspec{Times New Roman}
+\XeTeX }\\
+% ---- FILL IN THE FULL URL TO YOUR CV HERE
+\href{http://github.com/axambo/CV}{http://github.com/axambo/CV}}
+\end{center}
+
+\end{document}
