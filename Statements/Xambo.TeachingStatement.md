@@ -8,11 +8,11 @@ Anna Xambó, PhD
 
 I have six years of teaching experience (1999-2005), including (1) graduate and undergraduate courses of audio, video, motion graphics, and crossmedia in two universities (Universitat Politècnica de Catalunya, and Universitat de Vic) and an art institute of animation and multimedia (Media Art Institute Fak d’Art); (2) professional courses of audio and multimedia software in an IT training company (Crea Formación); and (3) preschool & primary school courses of crossmedia in three schools (Escola Magòria, Escola Costa i Llobera, and Escola Glòries) for a research project, in which I was the PI. 
 
-My teaching style has been practice based and project studio based, determined by (1) the type of content, and (2) the notion of learning by solving real-world problems motivated by personal interests. My software-based classes were practical and taught to students working with their computers. My lecture-based classes were connected to the students projects, so a period of time in class was allocated for one-to-one discussions on the projects.
+My teaching style has been practice based and project studio based, determined by (1) the type of content, and (2) the notion of learning by solving real-world problems driven by personal interests. So far, my software-based classes have been practical and taught to students working with their computers. My lecture-based classes have been connected to the students projects, so a period of time in class was allocated for one-to-one discussions on the projects.
 
 ## Teaching materials
 
-I published a book, *Herramientas de Diseño Digital* (Anaya-Multimedia, 2004). The book includes the course materials that I designed and used during my teaching at Media Art Institute Fak d'Art. This material stems from 4 years of teaching (1999-2003). I still think that publishing a book is helpful for consolidating and sharing teaching materials and would like to continue this path with my future teaching.
+I published a book, *Herramientas de Diseño Digital* (Anaya-Multimedia, 2004). This book includes the course materials that I designed and used during my teaching at Media Art Institute Fak d'Art. This material stems from 4 years of teaching (1999-2003). I still think that publishing a book is helpful for consolidating and sharing teaching materials and would like to continue this path with my future teaching.
 
 ## Learning to learn
 
@@ -22,7 +22,7 @@ I realized that with most technology-related subjects, such as teaching a softwa
 
 As a Postdoctoral Fellow in Georgia Tech, I have been giving guest talks and co-advising grad students with their projects and learning on the way. The approach is more like communities of practice, in which conversations influence the evolvement of the projects. It is rewarding to see the impact of these conversations in the final projects.
 
-In particular, I co-advised 2 master students and 1 first-year PhD student of the Digital Media Program for the project studio TuneTable during the academic year 2015-2016 (see our TEI'17 publication for further details). During the second semester of the academic year 2015-2016, I co-advised 1 CS graduate student for a project of automatic algorithmic composition. 
+In particular, I co-advised two master students and one first-year PhD student of the Digital Media Program for the project studio TuneTable during the academic year 2015-2016 (see our TEI'17 publication for further details). During the second semester of the academic year 2015-2016, I co-advised one CS graduate student for a project of automatic algorithmic composition. 
 
 ## My teaching pedagogy
 
