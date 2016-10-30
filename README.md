@@ -4,10 +4,10 @@
 
 ## Statements
 
-* [Teaching Statement (PDF)](https://github.com/axambo/CV/blob/master/Statements/Xambo.TeachingStatement.pdf?raw=true)
 * [Research Statement (PDF)](https://github.com/axambo/CV/blob/master/Statements/Xambo.ResearchStatement.pdf?raw=true)
-* [Diversity Statement (PDF)](https://github.com/axambo/CV/blob/master/Statements/Xambo.DiversityStatement.pdf?raw=true)
 * [Music statement (PDF)](https://github.com/axambo/CV/blob/master/Statements/Xambo.MusicStatement.pdf?raw=true)
+* [Teaching Statement (PDF)](https://github.com/axambo/CV/blob/master/Statements/Xambo.TeachingStatement.pdf?raw=true)
+* [Diversity Statement (PDF)](https://github.com/axambo/CV/blob/master/Statements/Xambo.DiversityStatement.pdf?raw=true)
 
 ## Contact information
 
