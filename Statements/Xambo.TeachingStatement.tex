@@ -1,0 +1,136 @@
+%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee 
+% that it will correctly compile on your system if you have a non-standard  
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+\usepackage{fontspec} 
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text}
+%\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O}
+%\setmonofont[Scale=0.8]{Monaco}
+%%% modified by Karol Kozioł for ShareLaTeX use
+\setmainfont[
+  Ligatures={Common}, Numbers={OldStyle}, Variant=01,
+  BoldFont=LinLibertine_RB.otf,
+  ItalicFont=LinLibertine_RI.otf,
+  BoldItalicFont=LinLibertine_RBI.otf
+]{LinLibertine_R.otf}
+\setmonofont[Scale=0.8]{DejaVuSansMono.ttf}
+
+% ---- CUSTOM COMMANDS
+\chardef\&="E050
+\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\amper{}}{\chardef\amper="E0BD }
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\mdseries\upshape\Large}
+\subsectionfont{\mdseries\scshape\normalsize} 
+\subsubsectionfont{\mdseries\upshape\large} 
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\usepackage[%dvipdfm, 
+bookmarks, colorlinks, breaklinks, 
+% ---- FILL IN HERE THE TITLE AND AUTHOR
+	pdftitle={Anna Xambó - vita},
+	pdfauthor={Anna Xambó},
+	pdfproducer={http://nitens.org/taraborelli/cvtex}
+]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
+
+\pagenumbering{gobble} % switch off page numbering
+
+%HEADER & FOOTER
+\pagenumbering{arabic}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\lfoot{Anna Xambó, PhD}
+\cfoot{Teaching Statement}%removes pagination at the center of the footer
+\rfoot{\thepage\ of \pageref{LastPage}}
+
+% DOCUMENT
+\begin{document}
+{\LARGE Teaching statement}\\[0.2cm]
+Anna Xambó, PhD\\
+\href{http://annaxambo.me}{annaxambo.me}
+
+\section*{My teaching experience}
+
+I have six years of teaching experience (1999-2005), including (1) graduate and undergraduate courses of audio, video, motion graphics, and crossmedia in two universities (Universitat Politècnica de Catalunya and Universitat de Vic) and an art institute of animation and multimedia (Media Art Institute Fak d’Art); (2) professional courses of audio and multimedia software in an IT training company (Crea Formación); and (3) preschool \& primary school courses of crossmedia in three schools (Escola Magòria, Escola Costa i Llobera, and Escola Glòries) for a research project, in which I was the PI. 
+
+My teaching style has been practice based and project studio based, determined by (1) the type of content, and (2) the notion of learning by solving real-world problems driven by personal interests. So far, my software-based classes have been practical and taught to students working with their computers. My lecture-based classes have been connected to the students projects, so a period of time in class was allocated for one-to-one discussions on the projects.
+
+\section*{Teaching materials}
+
+I published a book, \emph{Herramientas de Diseño Digital} (Anaya-Multimedia, 2004). This book includes the course materials that I designed and used during my teaching at Media Art Institute Fak d'Art. This material stems from 4 years of teaching (1999-2003). I still think that publishing a book is helpful for consolidating and sharing teaching materials and would like to continue this path with my future teaching.
+
+\section*{Learning to learn}
+
+I realized that with most technology-related subjects, such as teaching a software, the content can vary from one term to the next. The teacher needs to be actively updating the contents, and having a constant attitude of learning to learn. Also, it is important to teach concepts that are transferable, e.g., to other software environments or real-world situations.
+
+\section*{Guest lectures and co-advisor of teams}
+
+As a Postdoctoral Fellow in Georgia Tech, I have been giving guest talks and co-advising grad students with their projects and learning on the way. The approach is like communities of practice, in which conversations influence the evolvement of the projects. It is rewarding to see the impact of these conversations in the final projects.
+
+In particular, I co-advised two master students and one first-year PhD student of the Digital Media Program for the project studio TuneTable during the academic year 2015-2016 (see our TEI '17 publication for further details). During the second semester of the academic year 2015-2016, I co-advised one CS graduate student for a project of automatic algorithmic composition.
+
+\section*{My teaching pedagogy}
+
+My teaching style is very interdisciplinary. For example, I co-designed a hands-on course on Crossmedia for undergraduates. This course promoted hands-on interdisciplinary work by mixing sound, image, animation, video, motion graphics, and Internet. In 2004, we were awarded with a research grant to adapt these contents to preschoolers and grade-schoolers.
+
+If I had to reflect on my previous teaching style, I would follow the Coursera model of including more theory in the class and let students explore the practical aspects by their own by providing a selected list of resources and exercises. Students need to take agency of their projects and the teacher should guide them over the course of their journey. During the lectures, I would make sure that students are understanding the content with open questions, dialogues and quizzes. My teaching is in alignment with ideas from (1) Dewey's experiential learning pedagogy about learning through experiences, and (2) Papert's constructionism learning about learning by making, and learning to learn.
+
+\section*{My teaching areas of interest}
+
+My teaching areas of interest are: human-computer interaction; interaction design; tangible, physical and social computing; arts and social sciences research methods applied to music computing; creative programming; computer music algorithms and practices; and real-time interactive systems for music performance; among others. Preparing a new class is always exciting and challenging. I think that a class needs to be prepared with most respect, and should be seen as a great opportunity to guide students from own experience but also as a knowledge exchange with students. I also think that making more visible the potential of social applications from the use of music technology is important to attract more female students into the field.
+
+\section*{Teaching music technology as a practitioner}
+
+Teaching music technology based on own music practice can be a biased situation. The concepts can be (and should be) illustrated with own examples, yet combined with others' complementary examples and making the case that they are just examples. In order to overcome this situation, the principles need to be taught separated from personal taste. The evaluation criteria needs to be clear for both students and teacher, so that musical aesthetics should not interfere in grading. 
+
+%\vspace{1cm}
+\vfill{}
+%\hrulefill
+
+\begin{center}
+{\scriptsize  Anna Xambó •\- Curriculum Vitae •\- Last updated: \today\- •\- %original: Last updated: \today\- •\- 
+% ---- PLEASE LEAVE THIS BACKLINK FOR ATTRIBUTION AS PER CC-LICENSE
+Typeset in \href{http://nitens.org/taraborelli/cvtex}{
+%\fontspec{Times New Roman}
+\XeTeX }\\
+% ---- FILL IN THE FULL URL TO YOUR CV HERE
+\href{https://github.com/axambo/CV/tree/master/Statements}{https://github.com/axambo/CV/tree/master/Statements}}
+\end{center}
+
+\end{document}

@@ -6,7 +6,7 @@ Anna Xambó, PhD
 
 ## My teaching experience
 
-I have six years of teaching experience (1999-2005), including (1) graduate and undergraduate courses of audio, video, motion graphics, and crossmedia in two universities (Universitat Politècnica de Catalunya, and Universitat de Vic) and an art institute of animation and multimedia (Media Art Institute Fak d’Art); (2) professional courses of audio and multimedia software in an IT training company (Crea Formación); and (3) preschool & primary school courses of crossmedia in three schools (Escola Magòria, Escola Costa i Llobera, and Escola Glòries) for a research project, in which I was the PI. 
+I have six years of teaching experience (1999-2005), including (1) graduate and undergraduate courses of audio, video, motion graphics, and crossmedia in two universities (Universitat Politècnica de Catalunya and Universitat de Vic) and an art institute of animation and multimedia (Media Art Institute Fak d’Art); (2) professional courses of audio and multimedia software in an IT training company (Crea Formación); and (3) preschool & primary school courses of crossmedia in three schools (Escola Magòria, Escola Costa i Llobera, and Escola Glòries) for a research project, in which I was the PI. 
 
 My teaching style has been practice based and project studio based, determined by (1) the type of content, and (2) the notion of learning by solving real-world problems driven by personal interests. So far, my software-based classes have been practical and taught to students working with their computers. My lecture-based classes have been connected to the students projects, so a period of time in class was allocated for one-to-one discussions on the projects.
 
@@ -20,9 +20,9 @@ I realized that with most technology-related subjects, such as teaching a softwa
 
 ## Guest lectures and co-advisor of teams
 
-As a Postdoctoral Fellow in Georgia Tech, I have been giving guest talks and co-advising grad students with their projects and learning on the way. The approach is more like communities of practice, in which conversations influence the evolvement of the projects. It is rewarding to see the impact of these conversations in the final projects.
+As a Postdoctoral Fellow in Georgia Tech, I have been giving guest talks and co-advising grad students with their projects and learning on the way. The approach is like communities of practice, in which conversations influence the evolvement of the projects. It is rewarding to see the impact of these conversations in the final projects.
 
-In particular, I co-advised two master students and one first-year PhD student of the Digital Media Program for the project studio TuneTable during the academic year 2015-2016 (see our TEI'17 publication for further details). During the second semester of the academic year 2015-2016, I co-advised one CS graduate student for a project of automatic algorithmic composition. 
+In particular, I co-advised two master students and one first-year PhD student of the Digital Media Program for the project studio TuneTable during the academic year 2015-2016 (see our TEI '17 publication for further details). During the second semester of the academic year 2015-2016, I co-advised one CS graduate student for a project of automatic algorithmic composition. 
 
 ## My teaching pedagogy
 
@@ -32,7 +32,7 @@ If I had to reflect on my previous teaching style, I would follow the Coursera m
 
 ## My teaching areas of interest
 
-My teaching areas of interest are: human-computer interaction; tangible, physical and social computing; arts and social sciences research methods applied to music computing; creative programming; computer music algorithms and practices; and real-time interactive systems for music performance; among others. Preparing a new class is always exciting and challenging. I think that a class needs to be prepared with most respect, and should be seen as a great opportunity to guide students from own experience but also as a knowledge exchange with students. I also think that making more visible the potential of social applications from the use of music technology is important to attract more female students into the field.
+My teaching areas of interest are: human-computer interaction; interaction design; tangible, physical and social computing; arts and social sciences research methods applied to music computing; creative programming; computer music algorithms and practices; and real-time interactive systems for music performance; among others. Preparing a new class is always exciting and challenging. I think that a class needs to be prepared with most respect, and should be seen as a great opportunity to guide students from own experience but also as a knowledge exchange with students. I also think that making more visible the potential of social applications from the use of music technology is important to attract more female students into the field.
 
 ## Teaching music technology as a practitioner
 

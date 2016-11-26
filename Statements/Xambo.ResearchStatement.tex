@@ -1,0 +1,156 @@
+%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee 
+% that it will correctly compile on your system if you have a non-standard  
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+\usepackage{fontspec} 
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in}
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text}
+%\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O}
+%\setmonofont[Scale=0.8]{Monaco}
+%%% modified by Karol Kozioł for ShareLaTeX use
+\setmainfont[
+  Ligatures={Common}, Numbers={OldStyle}, Variant=01,
+  BoldFont=LinLibertine_RB.otf,
+  ItalicFont=LinLibertine_RI.otf,
+  BoldItalicFont=LinLibertine_RBI.otf
+]{LinLibertine_R.otf}
+\setmonofont[Scale=0.8]{DejaVuSansMono.ttf}
+
+% ---- CUSTOM COMMANDS
+\chardef\&="E050
+\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\amper{}}{\chardef\amper="E0BD }
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\mdseries\upshape\Large}
+\subsectionfont{\mdseries\scshape\normalsize} 
+\subsubsectionfont{\mdseries\upshape\large} 
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\usepackage[%dvipdfm, 
+bookmarks, colorlinks, breaklinks, 
+% ---- FILL IN HERE THE TITLE AND AUTHOR
+	pdftitle={Anna Xambó - vita},
+	pdfauthor={Anna Xambó},
+	pdfproducer={http://nitens.org/taraborelli/cvtex}
+]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue} 
+
+%\pagenumbering{gobble} % switch off page numbering
+
+%HEADER & FOOTER
+\pagenumbering{arabic}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\lfoot{Anna Xambó, PhD}
+\cfoot{Research Statement}%removes pagination at the center of the footer
+\rfoot{\thepage\ of \pageref{LastPage}}
+
+% DOCUMENT
+\begin{document}
+{\LARGE Research statement}\\[0.2cm]
+Anna Xambó, PhD\\
+\href{http://annaxambo.me}{annaxambo.me}
+
+\section*{Vision \& Mission}
+
+I envision contributing to the \textbf{sound} \& \textbf{music computing} and \textbf{HCI} fields through an interdisciplinary approach that embraces techniques and research methods from engineering, social sciences, and arts.
+My mission is to explore (1) new ways of interacting with sound and music, (2) new methods for understanding sound and music computing, and (3) new algorithms and systems to create sound and music. 
+
+\section*{Foci of research}
+
+In particular, my interest focuses on finding synergies between engineering, social sciences and arts applied to music computing research, and connect my two backgrounds in engineering and artistic digital humanities. Social science research provides theoretical frameworks for understanding social structures and processes. Engineering research provides tools and methods to build computational systems. Arts research provides tools for reflecting on practice and thinking critically and differently. Sound and music computing research provides theoretical frameworks, computational tools and reflective practice methods for understanding sound and music related phenomena. The discipline of HCI bridges the gap between engineering, social sciences and arts by considering the human factors involved during the interactions with computers. My research is in alignment with HCI focusing on sound and music computing systems, with a special interest in social applications. The outcomes include algorithms and systems that support new social interaction practices in sound and music computing, research methods for understanding these social interactions, and experiences (e.g. workshops, sound installations, sound interventions, symposiums, community work) that reflect upon these social interactions.
+
+My research has \textbf{three foci}:
+
+\begin{enumerate}
+\item Development of new real-time interactive systems and creative algorithms, and exploration of ways to understand the interactions with these systems. 
+\item Development of sound and music computing tools to raise awareness on social, sound-related issues e.g. environmental issues, and to raise awareness of socioeconomic problems that can be expressed via sound. 
+\item Development of DIY tools and experiences for engaging non-musicians, especially girls and women, into sound and music computing.
+\end{enumerate}
+
+\subsection*{Real-time interactive systems and creative algorithms}
+
+This research includes the development of tangible, web, gestural, and mobile interfaces applied to live coding, collaborative practices, improvisation practices, and spatial audio.
+This branch is a follow-up of my own thesis work, the experience from my own practice as well as from EarSketch and its live coding capabilities. For example, see my previous research on understanding open forms in the wild by studying music improvisation with novel technologies. Also, see my PhD work on tabletops and ambisonics as a collaborative tool for sound design and performance with everyday sounds using spatial audio.\\
+
+\begin{itemize}
+\item Xambó, A., Freeman, J., Magerko, B., Shah, P. (2016). Challenges and new directions for collaborative live coding in the classroom. In \emph{ICLI 2016}. Brighton, UK.
+\item Xambó, A., Hornecker, E., Marshall, P., Jordà, S., Dobbyn, C. and Laney, R. (2016). Exploring social interaction with a tangible music interface. \emph{Interacting with Computers}.
+\item Xambó, A. (2015). \emph{Tabletop Tangible Interfaces for Music Performance: Design and Evaluation}. Thesis. The Open University.
+\item Xambó, A., Hornecker, E., Marshall, P., Jordà, S., Dobbyn, C. and Laney, R. (2013). \emph{Let's jam the Reactable: peer learning during musical improvisation with a tabletop tangible interface}. ACM Transactions on Computer-Human Interaction (TOCHI), 20(6), pp. 36:1–36:34.
+\item Xambó, A. (2008). \emph{Interfaces for Sketching Musical Compositions}. Unpublished master’s thesis. UPF.
+\end{itemize}
+
+\subsection*{Raising awareness on sound-related and socioeconomic issues}
+
+This research is in alignment with the \href{http://serve-learn-sustain.gatech.edu/environmental-justice-series}{environmental justice movement} in Georgia Institute of Technology (Georgia Tech) and similar movements across the world. I can contribute with work on sound-related issues e.g. noise pollution. The outcomes include sound installations and interventions, workshops, symposiums, and community work (e.g. working with low-income communities) around these topics. I have started conversations with Jennifer Hirsch (Director of Center for Serve-Learn-Sustain, Georgia Tech) for the organization in Spring 2017 of an event around noise pollution within the mark of the environmental justice series.
+Actions around this issue will include participatory design and computational tools to raise awareness of existing problems, for example, visualization of data, or making urban interventions. This branch also aligns with research in social computing developed at the School of Interactive Computing and research in visualization developed at the College of Computing at Georgia Tech. This perspective is inspired by \href{https://www.technologyreview.com/s/528216/the-emerging-science-of-computational-anthropology}{computational anthropology} and the use of data visualization to understand complex phenomena. See my previous research in data visualization as an aiding tool within the sound and music computing domain, and my experience with organizing workshops and symposiums as a Research Fellow at UCL London Knowledge Lab. 
+
+\begin{itemize}
+\item Xambó, A., Lerch, A., Freeman, J. (2016). Learning to code through MIR. In \emph{Extended abstracts for the Late-Breaking Demo Session of the 17th International Society for Music Information Retrieval Conference (ISMIR 2016)}. New York. 
+\item Bogdanov, D., Haro, M., Fuhrmann, F., Xambó, A., Gómez, E. and Herrera, P. (2013). Semantic audio content-based music recommendation and visualization based on user preference examples. \emph{Information Processing \& Management}, 49(1), pp. 13-33.
+\item Haro, M.; Xambó, A.; Fuhrmann, F.; Bogdanov, D.; Gómez, E. and Herrera, P. (2010). The Musical Avatar: a visualization of musical preferences by means of audio content description. In \emph{Proceedings of the 5th Audio Mostly Conference (AM '10)}. Piteå, Sweden.
+\item Roma, G. and Xambó, A. (2008). A tabletop waveform editor for live performance. In \emph{Proceedings of the International Conference on New Interfaces for Musical Expression (NIME '08)}. Genoa, Italy.
+\end{itemize}
+
+\subsection*{DIY tools and experiences for non-musicians, especially girls}
+
+This line of research includes the development of STEAM educational tools that help students to engage with physics and math through music technology using sensors, actuators, and microcontrollers. It focuses on the development of tools that have a low-entry access to music making. I envision the organization of workshops in alignment with \href{https://yorkshiresoundwomen.wordpress.com}{Yorkshire Sound Women Network} workshops for girls in the UK and Hackathons in alignment with the inclusive \href{monthlymusichackathon.org}{Monthly Music Hackathon NYC}. This area will seek collaboration with existing high school programs, such as the Magnet Program, as well as collaborations with museums and STEAM programs. This branch is a follow-up of my own thesis work at the Open University, as well as current work with the projects EarSketch and TuneTable at Georgia Tech. Last but not least, this research complements with the established agenda for the \href{http://gtcmt.gatech.edu/womeninmusictech}{Women in Music Tech} organization.
+
+\begin{itemize}
+\item Xambó, A., Drozda, B., Weisling, A., Magerko, B., Huet, M., Gasque, T., Freeman, J. (accepted) Experience and ownership with a tangible computational music installation for informal learning. In \emph{Proceedings of the Tangible, Embedded, and Embodied Interaction Conference (TEI '17)}.
+\item Xambó, A., Lerch, A., Freeman, J. (2016). Learning to code through MIR. In \emph{Extended abstracts for the Late-Breaking Demo Session of the 17th International Society for Music Information Retrieval Conference (ISMIR 2016)}. New York.
+\item Freeman, J., Magerko, B., Edwards, D., Moore, R., McKlin, T., Xambó, A. (2015). \emph{EarSketch: a STEAM approach to broadening participation in computer science principles}. In Proceedings of the IEEE Research in Equity and Sustained Participation in Engineering, Computing, and Technology (RESPECT '15). Charlotte, NC. pp. 109-110.
+\item Xambó, A. (2015). \emph{Tabletop Tangible Interfaces for Music Performance: Design and Evaluation}. Thesis. The Open University.
+\item Xambó, A., Roma, G., Laney, R., Dobbyn, C. and Jordà, S. (2014). SoundXY4: supporting tabletop collaboration and awareness with ambisonics spatialisation. In \emph{Proceedings of the International Conference on New Interfaces for Musical Expression 2014 (NIME '14)}. London. pp. 249–252.
+\end{itemize}
+
+%\vspace{1cm}
+\vfill{}
+%\hrulefill
+
+\begin{center}
+{\scriptsize  Anna Xambó •\- Curriculum Vitae •\- Last updated: \today\- •\- %original: Last updated: \today\- •\- 
+% ---- PLEASE LEAVE THIS BACKLINK FOR ATTRIBUTION AS PER CC-LICENSE
+Typeset in \href{http://nitens.org/taraborelli/cvtex}{
+%\fontspec{Times New Roman}
+\XeTeX }\\
+% ---- FILL IN THE FULL URL TO YOUR CV HERE
+\href{https://github.com/axambo/CV/tree/master/Statements}{https://github.com/axambo/CV/tree/master/Statements}}
+\end{center}
+
+\end{document}
