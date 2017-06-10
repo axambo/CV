@@ -6,7 +6,7 @@ Anna Xambó, PhD
 
 ## Why Diversity Matters
 
-A diverse environment is important for understanding and respecting other points of view and facilitating rich collaborations. In the anthropology field it is said: *understanding "the other" helps to understand oneself*. In the field of music technology, as it also happens in other STEM fields, there is a well-known problem of lack of diversity. As a woman in music technology, I am particularly concerned about the lack of women in my field, and thus the lack of role models. 
+A diverse environment is important for understanding and respecting other points of view and facilitating rich collaborations. In the anthropology field it is said: *understanding "the other" helps to understand oneself*. In the field of music technology, as it also happens in other STEM fields, there is a well-known problem of lack of diversity. As a woman in music technology, I am particularly concerned about the lack of women in my field, and thus the lack of role models. In particular, my actions are committed to diversity and equity in higher education. 
 
 ## We Are Agents of Change
 
@@ -20,4 +20,4 @@ I took it as a personal research and conducted a series of informal interviews w
 
 ## What else Can We Do?
 
-As agents of change, we can improve our environment keeping updated and getting feedback from our colleagues about our organization's actions and achievements, and establishing constant dialogue with the department. Furthermore, attending events related to diversity, such as the [Diversity Symposium 2016](http://www.diversity.gatech.edu/diversitysymposium) at Georgia Tech, is important to network, join forces and share current issues and future strategies. 
+As agents of change, we can improve our environment establishing constant dialogue with the department about the organization's actions and achievements. Furthermore, attending events related to diversity, such as the [Diversity Symposium 2016](http://www.diversity.gatech.edu/diversitysymposium) at Georgia Tech, is important to network, join forces and share current issues and future strategies.  
