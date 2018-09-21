@@ -1,6 +1,6 @@
 # Research statement
 
-Anna Xambó, PhD 
+Anna Xambó, PhD
 
 [annaxambo.me](http://annaxambo.me)
 
@@ -8,13 +8,13 @@ Anna Xambó, PhD
 
 My research contributes to the fields of **HCI** and **sound & music computing** and has **three foci**:
 
-* **Technology**: using cutting-edge technology in real-time interactive musical systems and creative algorithms borrowed from MIR and machine learning that can be useful for real-time performance and musical improvisation e.g. live coding or algorithmic music.
-* **Design**: exploring novel aesthetics for real-time interactive musical systems e.g. tangible interfaces or wearable computing. 
-* **Experience**: bringing more egalitarian, collaborative and participatory experiences to the fore e.g. multichannel experiences, participatory performances, DIY workshops. 
+* **Technology**: using cutting-edge technology in real-time interactive musical systems and creative algorithms borrowed from MIR and machine learning that can be useful for real-time performance and musical improvisation e.g. live coding or generative music.
+* **Design**: exploring novel aesthetics for real-time interactive musical systems e.g. tangible interfaces or wearable computing.
+* **Experience**: bringing more egalitarian, collaborative and participatory experiences to the fore e.g. multichannel experiences, participatory performances, DIY workshops.
 
- 
+
 ## Intelligent Computer-Supported Collaborative Work: Tangible Music Everywhere
- 
+
 I envision pushing the boundaries of **technology**, **design**, and **experience** towards more collaborative, egalitarian and sustainable spaces, what I term **tangible music everywhere**. My mission is to do interdisciplinary research that embraces techniques and research methods from engineering, social sciences, and the arts for creating a new generation of interactive music systems.
 
 My area of expertise is HCI applied to the development of new technologies and user interfaces that promote new experiences. I am particularly interested in the creation of cutting-edge pedagogical interfaces that help to understand **STEM** (Science, Technology, Engineering, Math) concepts, with the special use case of **music technology** because it can attract more diversity to the scientific fields. For example, see my work on the National Science Foundation funded project TuneTable, a musical tabletop for museums that promotes computational concepts by making music.
@@ -25,7 +25,7 @@ An interesting characteristic of these novel interfaces is their potential suppo
 
 ### STEM and Education
 
-* Xambó, A., Lerch, A., Freeman, J. (2016). Learning to Code through MIR. In *Extended abstracts for the Late-Breaking Demo Session of the 17th International Society for Music Information Retrieval Conference (ISMIR 2016)*. New York. 
+* Xambó, A., Lerch, A., Freeman, J. (2016). Learning to Code through MIR. In *Extended abstracts for the Late-Breaking Demo Session of the 17th International Society for Music Information Retrieval Conference (ISMIR 2016)*. New York.
 * * Xambó, A., Drozda, B., Weisling, A., Magerko, B., Huet, M., Gasque, T., Freeman, J. (2017) Experience and Ownership with a Tangible Computational Music Installation for Informal Learning. In *Proceedings of the Tangible, Embedded, and Embodied Interaction Conference (TEI '17)*.
 * Freeman, J., Magerko, B., Edwards, D., Moore, R., McKlin, T., Xambó, A. (2015). EarSketch: a STEAM Approach to Broadening Participation in Computer Science Principles. In *Proceedings of the IEEE Research in Equity and Sustained Participation in Engineering, Computing, and Technology (RESPECT '15)*. Charlotte, NC. pp. 109-110.
 
