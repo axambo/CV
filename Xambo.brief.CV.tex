@@ -1,0 +1,139 @@
+	%------------------------------------
+% Dario Taraborelli
+% Typesetting your academic CV in LaTeX
+%
+% URL: http://nitens.org/taraborelli/cvtex
+% DISCLAIMER: This template is provided for free and without any guarantee 
+% that it will correctly compile on your system if you have a non-standard  
+% configuration.
+% Some rights reserved: http://creativecommons.org/licenses/by-sa/3.0/
+%------------------------------------
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[10pt, a4paper]{article}
+\usepackage{fontspec} 
+
+% DOCUMENT LAYOUT
+\usepackage{geometry} 
+\geometry{a4paper, textwidth=7in, textheight=10in, marginparsep=8pt, marginparwidth=.7in}%original: marginparsep=7pt, marginparwidth=.6in
+\setlength\parindent{0in}
+
+% FONTS
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text}
+%\setromanfont [Ligatures={Common}, Numbers={OldStyle}, Variant=01]{Linux Libertine O}
+%\setmonofont[Scale=0.8]{Monaco}
+%%% modified by Karol Kozioł for ShareLaTeX use
+\setmainfont[
+  Ligatures={Common}, Numbers={OldStyle}, Variant=01,
+  BoldFont=LinLibertine_RB.otf,
+  ItalicFont=LinLibertine_RI.otf,
+  BoldItalicFont=LinLibertine_RBI.otf
+]{LinLibertine_R.otf}
+\setmonofont[Scale=0.8]{DejaVuSansMono.ttf}
+
+% ---- CUSTOM COMMANDS
+\chardef\&="E050
+\newcommand{\html}[1]{\href{#1}{\scriptsize\textsc{[html]}}}
+\newcommand{\pdf}[1]{\href{#1}{\scriptsize\textsc{[pdf]}}}
+\newcommand{\doi}[1]{\href{#1}{\scriptsize\textsc{[doi]}}}
+% ---- MARGIN YEARS
+\usepackage{marginnote}
+\newcommand{\amper{}}{\chardef\amper="E0BD }
+\newcommand{\years}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedrightmarginnote}{} %\original: raggedleftmarginnote
+\setlength{\marginparsep}{8pt}%original: 7pt
+\reversemarginpar
+
+% HEADINGS
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\mdseries\upshape\Large}
+\subsectionfont{\mdseries\scshape\normalsize} 
+\subsubsectionfont{\mdseries\upshape\large} 
+
+% PDF SETUP
+% ---- FILL IN HERE THE DOC TITLE AND AUTHOR
+\usepackage[%dvipdfm, 
+bookmarks, colorlinks, breaklinks, 
+% ---- FILL IN HERE THE TITLE AND AUTHOR
+	pdftitle={Anna Xambó - vita},
+	pdfauthor={Anna Xambó},
+	pdfproducer={http://nitens.org/taraborelli/cvtex}
+]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue,linkcolor=MidnightBlue} 
+
+% AVOID WIDOW LINES
+\usepackage[all]{nowidow}
+
+%HEADER & FOOTER
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+% Footer
+%\lfoot{Anna Xambó, PhD}
+%\cfoot{Curriculum Vitae}%removes pagination at the center of the footer
+%\rfoot{\thepage\ of \pageref{LastPage}}
+
+% CUSTOM
+\usepackage{microtype}
+%\hyphenpenalty 10000
+%\exhyphenpenalty 1000
+%\widowpenalty 10000
+%\clubpenalty 10000
+%\interfootnotelinepenalty=10000
+
+
+% DOCUMENT
+\begin{document}
+
+{\textbf{Anna Xambó}}\\
+Associate Professor in Music Technology, Department of Music, NTNU\\
+\href{http://annaxambo.me/}{annaxambo.me}\\ 
+
+{\textbf{Education}}\\
+\textsc{PhD}, Music computing \& HCI, The Open University, 2015.\\
+MSc, Information, Communication and Audiovisual Media Technologies, Universitat Pompeu Fabra, 2008.\\
+BA, MA, Social and Cultural Anthropology, Universitat de Barcelona, 1996.\\
+
+{\textbf{Employment}}\\
+Associate Professor, NTNU, 2018--present. I am teaching graduate courses in audio programming, human-computer interaction, physical computing and sonification. I am co-founder and chair of the organization Women Nordic Music Technology (WoNoMute) (2018--present). I am the Music, Communication and Technology (NTNU/UiO)'s master programme council leader and programme study leader at NTNU. I am a visiting lecturer at Queen Mary University of London.\\
+Previously, I have been a postdoc at Queen Mary University of London (2017--2018). Before that, I was a postdoc at Georgia Tech (2015--2017). Also, I have been co-founder and co-chair of the organization Women in Music Tech at Georgia Tech (2016--2017). From 2013 to 2014, I was a research fellow at the London Knowledge Lab, UCL Institute of Education.
+I have been working since 2000 as interaction designer, web designer and web developer with strong background on Internet technologies. I have been employee in companies for 10 years (2000--2010) as well as co-founder of my own interactive media studio (2004--2010).\\
+
+{\textbf{Grants/Awards}} from NTNU (2018--2021); Sonic Arts Research Center (2018); NCWIT (2017); National Science Foundation AISL (2016); Women in Music Information Retrieval (2016); The Open University (2010--2013, 2010); Fundació Caixa de Sabadell (2003--2004); and Generalitat de Catalunya (2001--2002, 1998--1999).\\
+
+{\textbf{Peer-Reviewed Journal Publications}} in Computer Music Journal (2018); Journal of Audio Engineering Society (2018); Interacting with Computers (2017); International Journal of Social Research Methodology, (2017); Qualitative Research (2017); ACM Transactions on Computer-Human Interaction (2013); and Information Processing \& Management (2013).\\
+
+{\textbf{Conference and Festival Participation}} at Web Audio Conference (2018, 2017); Audio Mostly (2018, 2017, 2010); New Interfaces for Musical Expression (2018, 2014, 2011, 2008); Tangible, Embedded, and Embodied Interaction Conference (2018, 2017, 2011); International Conference on Computational Creativity (2017); International Conference on Live Coding (2016); International Society for Music Information Retrieval Conference (2016); Sound and Music Computing Conference (2016, 2012, 2010); International Conference of Live Interfaces (2016); Research in Equity and Sustained Participation in Engineering, Computing, and Technology (2015); CHI (2014); International Workshop on Content-Based Multimedia Indexing (2013); British Computer Society Human-Computer Interaction (2012, 2011); and International Computer Music Conference (2011).\\
+
+{\textbf{Performances}} at International Conference on Live Coding (2019); Dokkhuset (2018); Sonic Arts Research Center (2018); Inter/sections (2018); Web Audio Conference (2018, 2017); Cube Fest (2018); New Interfaces for Musical Expression (2018, 2017); Tangible, Embedded, and Embodied Interaction Conference (2018); Audio Mostly (2017); Root Signals Festival (2017); Freedonia (2017); Women in Sound Women on Sound (2016); PHONOS (2013); Niu (2012); Mostra Sonora i Visual (2006); Minima Festival (2004); and Sonar Festival (2002).\\
+
+{\textbf{Conference Organizer}} for Web Audio Conference (2019, chair; 2017, session chair; 2016, music/artworks chair); New Interfaces for Musical Expression Conference (2019, paper chair); ACM Creativity \& Cognition (2019, programme committee member); ACM Spatial User Interaction (2018, programme committee member); Computational Creativity (2017, local committee member); and International Computer Music Conference (2011, session chair).\\
+
+{\textbf{Interviews/Press Coverage}} in Girls Geek Dinner Trondheim (2019); ACM Interactions (2018); Netlabel Interview Project (2018); and Wallifornia Music Tech (2018).\\
+
+{\textbf{Research Visits}} at Filmuniversität Babelsberg KONRAD WOLF (2018); University of Strathclyde (2012, 2011); Universitat Pompeu Fabra (2011); and The Open University (2010).\\
+
+{\textbf{Blog Posts}} at Women Nordic Music Technology (2018--present); Audio Commons (2017--2018); Women in Music Tech (2016--2017); Methodological Innovation in Digital Arts and Social Sciences (2013--2014); postWIMP (2010--2011); streetTypes (2006--2009).\\
+
+%\vspace{1cm}
+%\vfill{}
+%\hrulefill
+
+\begin{center}
+{\scriptsize  Anna Xambó •\- Brief Curriculum Vitae •\- Last updated: \today\- •\- %original: Last updated: \today\- •\- 
+% ---- PLEASE LEAVE THIS BACKLINK FOR ATTRIBUTION AS PER CC-LICENSE
+Typeset in \href{http://nitens.org/taraborelli/cvtex}{
+%\fontspec{Times New Roman}
+\XeTeX }\\
+% ---- FILL IN THE FULL URL TO YOUR CV HERE
+\href{http://github.com/axambo/CV}{http://github.com/axambo/CV}}
+\end{center}
+
+\end{document}
