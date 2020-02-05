@@ -6,7 +6,7 @@ Anna Xambó, PhD
 
 ## Why Diversity Matters
 
-A diverse environment is important for understanding and respecting other points of view and facilitating rich collaborations. In the anthropology field it is said: *understanding "the other" helps to understand oneself*. In the field of music technology, as it also happens in other STEM fields, there is a well-known problem of lack of diversity. As a woman in music technology, Overall, my actions are committed to diversity and equity in higher education and the music technology industry. 
+A diverse environment is important for understanding and respecting other points of view and facilitating rich collaborations. In the anthropology field it is said: *understanding "the other" helps to understand oneself*. In the field of music and audio technology, as it also happens in other STEM fields, there is a well-known problem of lack of diversity. As a woman working in music and audio technology, I am particularly concerned about the lack of women in my field, and thus the lack of role models. Overall, my actions are committed to diversity and equity in higher education and the music technology industry. 
 
 ## We Are Agents of Change
 
@@ -20,8 +20,12 @@ I took it as a personal research and conducted a series of informal interviews w
 
 ## WiNIME (2018)
 
-As a follow up of WiMT, I looked into the underrepresentation of women at the New Interfaces for Musical Expression (NIME) conference in the paper [Who Are the Women Authors in NIME? - Improving Gender Balance in NIME Research”](http://annaxambo.me/pub/Xambo_2018_WiNIME.pdf) (Xambó 2018) and created the [WiNIME directory](https://axambo.github.io/directory-of-winime/).
+As a follow up of WiMT, I looked into the underrepresentation of women at the New Interfaces for Musical Expression (NIME) conference in the paper [Who Are the Women Authors in NIME? - Improving Gender Balance in NIME Research”](http://annaxambo.me/pub/Xambo_2018_WiNIME.pdf) (Xambó 2018) and created the [WiNIME directory](https://axambo.github.io/directory-of-winime/). In 2019, I have been appointed Women in NIME (WiNIME) officer. 
+
+## WoNoMute (2018-2019)
+
+I am founder of the organization [Women Nordic Music Technology](http://wonomute.no) (WoNoMute), which started in August 2018 together with the beginning of the master Music Communication and Technology, both activities supported conjointly by the Norwegian University of Science and Technology and University of Oslo with the objective of improving the underrepresentation of women in techno-scientific fields. The organization’s aim is to promote and connect the work of women in music technology at local, national and international levels. We have produced a range of activities and material for the online archive. A brief about how the first year went can be found here: [http://wonomute.no/blog/1st-anniversary-of-WoNoMute/](http://wonomute.no/blog/1st-anniversary-of-WoNoMute/)
 
 ## What else Can We Do?
 
-As agents of change, we can improve our environment establishing constant dialogue with our co-workers in the department about our actions and achievements related to improving the representation of women in music technology. Furthermore, attending events related to diversity, such as the [Diversity Symposium 2016](http://www.diversity.gatech.edu/diversitysymposium) at Georgia Tech, is important to network, join forces and share current issues and future strategies.  
+As agents of change, we can improve our environment establishing constant dialogue with our co-workers in the department about our actions and achievements related to improving the representation of women in music and audio technology. Furthermore, attending events related to diversity, such as the [Diversity Symposium 2016](http://www.diversity.gatech.edu/diversitysymposium) at Georgia Tech, is important to network, join forces and share current issues and future strategies.  

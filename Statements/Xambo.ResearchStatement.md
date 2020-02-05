@@ -13,13 +13,13 @@ My research contributes to the fields of **HCI** and **sound & music computing**
 * **Experience**: bringing more egalitarian, collaborative and participatory experiences to the fore e.g. multichannel experiences, participatory performances, DIY workshops.
 
 
-## Intelligent Computer-Supported Collaborative Work: Tangible Music Everywhere
+## Intelligent Computer-Supported Collaborative Music Everywhere
 
-I envision pushing the boundaries of **technology**, **design**, and **experience** towards more collaborative, egalitarian and sustainable spaces, what I term **tangible music everywhere**. My mission is to do interdisciplinary research that embraces techniques and research methods from engineering, social sciences, and the arts for creating a new generation of interactive music systems.
+I envision pushing the boundaries of **technology**, **design**, and **experience** towards more collaborative, egalitarian and sustainable spaces, what I term **intelligent computer-supported collaborative work everywhere**. My mission is to do interdisciplinary research that embraces techniques and research methods from engineering, social sciences, and the arts for creating a new generation of interactive music systems.
 
-My area of expertise is HCI applied to the development of new technologies and user interfaces that promote new experiences. I am particularly interested in the creation of cutting-edge pedagogical interfaces that help to understand **STEM** (Science, Technology, Engineering, Math) concepts, with the special use case of **music technology** because it can attract more diversity to the scientific fields. For example, see my work on the National Science Foundation funded project TuneTable, a musical tabletop for museums that promotes computational concepts by making music.
+My area of expertise is HCI applied to the development of new technologies and user interfaces that promote new experiences. I am particularly interested in the creation of cutting-edge pedagogical interfaces that help to understand **STEM** (Science, Technology, Engineering, Math) concepts, with the special use case of **music and audio technology** because it can attract more diversity to the scientific fields. For example, see my work on the National Science Foundation funded project TuneTable, a musical tabletop for museums that promotes computational concepts by making music.
 
-An interesting characteristic of these novel interfaces is their potential support to collaboration, an aspect that I have been working since my PhD. I am interested in further exploring **computer-supported collaborative work (CSCW)** applied to STEM with an special emphasis in **music technology education** and **intelligent CSCW systems** by means of **music information retrieval** and **machine learning** algorithms.
+An interesting characteristic of these novel interfaces is their potential support to collaboration, an aspect that I have been working since my PhD. I am interested in further exploring **computer-supported collaborative work (CSCW)** applied to STEM with a special emphasis in **music technology education** and **intelligent CSCW systems** by means of **music information retrieval** and **machine learning** algorithms.
 
 ## Related publications
 
@@ -36,7 +36,7 @@ An interesting characteristic of these novel interfaces is their potential suppo
 * **Xambó, A.**, Roma, G., Laney, R., Dobbyn, C. and Jordà, S. (2014). SoundXY4: Supporting Tabletop Collaboration and Awareness with Ambisonics Spatialisation. In *Proceedings of the International Conference on New Interfaces for Musical Expression 2014 (NIME '14)*. London. pp. 249–252.
 * **Xambó, A.**, Laney, R., Dobbyn, C. and Jordà, S. (2011). Multi-touch Interaction Principles for Collaborative Real-time Music Activities: Towards a Pattern Language. In *Proceedings of the International Computer Music Conference (ICMC ’11)*. Huddersffeld, UK. pp. 403–406.
 
-### Interaction Design
+### HCI
 
 * **Xambó, A.** (2017), Embodied Music Interaction: Creative Design Synergies Between Music Performance and HCI. In Price, S. and Broadhurst, S. eds. *Digital Bodies: Creativity and Technology in the Arts and Humanities*. Palgrave Macmillan, London. pp. 207-220. ISBN 9781349952410.
 * **Xambó, A.**, Jewitt, C., and Price, S. (2014). Towards an Integrated Methodological Framework for Understanding Embodiment in HCI. In *Proceedings of the Extended Abstracts on Human Factors in Computing Systems (CHI '14)*. Toronto. pp. 1411-1416.
@@ -45,5 +45,7 @@ An interesting characteristic of these novel interfaces is their potential suppo
 
 ### Intelligent Systems
 
+* **Xambó, A.**, Font, F., Fazekas, G. and Barthet, M. (2019) "Leveraging Online Audio Commons Content For Media Production". In Michael Filimowicz (ed.) Foundations in Sound Design for Linear Media: An Interdisciplinary Approach, Routledge. pp. 248-282. ISBN 978-1-138-09396-6.
+* **Xambó, A.**, Lerch, A. and Freeman, J. (2019) “Music Information Retrieval in Live Coding: A Theoretical Framework". Computer Music Journal, 42(4), Winter 2018, pp. 9-25.
 * Bogdanov, D., Haro, M., Fuhrmann, F., **Xambó, A.**, Gómez, E. and Herrera, P. (2013). Semantic Audio Content-based Music Recommendation and Visualization Based on User Preference Examples. *Information Processing & Management*, 49(1), pp. 13-33.
 * Haro, M.; **Xambó, A.**; Fuhrmann, F.; Bogdanov, D.; Gómez, E. and Herrera, P. (2010). The Musical Avatar: A Visualization of Musical Preferences by Means of Audio Content Description. In *Proceedings of the 5th Audio Mostly Conference (AM '10)*. Piteå, Sweden.
