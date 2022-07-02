@@ -13,7 +13,7 @@
 
 Anna Xambó, PhD
 
-Email: anna.xambo@gatech.edu
+Email: anna.xambo@dmu.ac.uk
 
 Website: [annaxambo.me](http://annaxambo.me)
 
